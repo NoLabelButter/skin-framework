@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "presets": [
+    {
+      "id": "classic",
+      "name": "游戏默认",
+      "useGameDefaults": true,
+      "colors": {
+        "background": "#1F1F1F",
+        "surface": "#333333",
+        "text": "#EDE8D6",
+        "mutedText": "#9E9E99",
+        "accent": "#5C9EB8",
+        "accentText": "#0F171C",
+        "border": "#61615C",
+        "iconTint": "#EDE8D6"
+      },
+      "textures": []
+    },
+    {
+      "id": "chiikawa",
+      "name": "Chiikawa",
+      "useGameDefaults": false,
+      "colors": {
+        "background": "#1F1F1F",
+        "surface": "#333333",
+        "text": "#EDE8D6",
+        "mutedText": "#9E9E99",
+        "accent": "#5C9EB8",
+        "accentText": "#0F171C",
+        "border": "#61615C",
+        "iconTint": "#EDE8D6"
+      },
+      "textures": [
+        {
+          "slot": "gameplay_fixture_client_display",
+          "key": "chiikawa_client_display"
+        },
+        {
+          "slot": "gameplay_fixture_credit_display",
+          "key": "chiikawa_credit_display"
+        },
+        {
+          "slot": "gameplay_fixture_clientele",
+          "key": "chiikawa_clientele__pad1"
+        },
+        {
+          "slot": "main_menu_background",
+          "key": "chiikawa_main_menu_background"
+        },
+        {
+          "slot": "main_menu_button",
+          "key": "chiikawa_main_menu_button"
+        },
+        {
+          "slot": "new_game_specialization_panel",
+          "key": "chiikawa_specialization_panel"
+        },
+        {
+          "slot": "load_game_panel",
+          "key": "chiikawa_loadgame_panel"
+        },
+        {
+          "slot": "credits_panel",
+          "key": "chiikawa_credits_panel"
+        },
+        {
+          "slot": "credits_scroll_track",
+          "key": "chiikawa_credits_scroll_track"
+        },
+        {
+          "slot": "credits_scroll_handle",
+          "key": "chiikawa_credits_scroll_handle"
+        },
+        {
+          "slot": "credits_scroll_handle_border",
+          "key": false
+        },
+        {
+          "slot": "language_dropdown_closed",
+          "key": "chiikawa_language_closed"
+        },
+        {
+          "slot": "language_dropdown_panel",
+          "key": "chiikawa_language_panel"
+        },
+        {
+          "slot": "language_dropdown_row",
+          "key": "chiikawa_language_row"
+        },
+        {
+          "slot": "language_dropdown_selected",
+          "key": "chiikawa_language_selected"
+        },
+        {
+          "slot": "language_dropdown_scroll_track",
+          "key": "chiikawa_language_scroll_track"
+        },
+        {
+          "slot": "language_dropdown_scroll_thumb",
+          "key": "chiikawa_language_scroll_thumb"
+        },
+        {
+          "key": "chiikawa_loadgame_back_normal",
+          "slot": "load_game_back_button"
+        },
+        {
+          "key": "chiikawa_loadgame_back_hover",
+          "slot": "load_game_back_button_hover"
+        },
+        {
+          "key": "chiikawa_loadgame_discover_normal",
+          "slot": "load_game_discover_button"
+        },
+        {
+          "key": "chiikawa_loadgame_discover_hover",
+          "slot": "load_game_discover_button_hover"
+        },
+        {
+          "key": "chiikawa_loadgame_duplicate_normal",
+          "slot": "load_game_duplicate_button"
+        },
+        {
+          "key": "chiikawa_loadgame_duplicate_hover",
+          "slot": "load_game_duplicate_button_hover"
+        },
+        {
+          "key": "chiikawa_loadgame_delete_normal",
+          "slot": "load_game_delete_button"
+        },
+        {
+          "key": "chiikawa_loadgame_delete_hover",
+          "slot": "load_game_delete_button_hover"
+        },
+        {
+          "slot": "gameplay_fixture_shutter_door",
+          "key": "chiikawa_shutter_door"
+        },
+        {
+          "slot": "gameplay_fixture_shutter_blocker",
+          "key": "chiikawa_shutter_blocker"
+        },
+        {
+          "slot": "gameplay_fixture_window_frame",
+          "key": "chiikawa_window"
+        },
+        {
+          "slot": "gameplay_fixture_window_top",
+          "key": "chiikawa_window_top"
+        },
+        {
+          "slot": "gameplay_fixture_negociation_tablet",
+          "key": "chiikawa_negociation_tablet"
+        },
+        {
+          "slot": "gameplay_fixture_poster",
+          "key": "chiikawa_nutruifruit_poster"
+        },
+        {
+          "slot": "gameplay_fixture_poster_pulled",
+          "key": "chiikawa_nutruifruit_poster_pulled"
+        },
+        { "slot": "gameplay_fixture_shutter_button", "key": "chiikawa_shutter_button" },
+        { "slot": "gameplay_fixture_shutter_button_pressed", "key": "chiikawa_shutter_button_pressed" },
+        { "slot": "gameplay_fixture_bell", "key": "chiikawa_bell" },
+        { "slot": "gameplay_fixture_bell_pressed", "key": "chiikawa_bell_pressed" },
+        { "slot": "gameplay_fixture_transfer_button", "key": "chiikawa_transfer_button" },
+        { "slot": "gameplay_fixture_dismiss_button", "key": "chiikawa_dismiss_button" },
+        { "slot": "gameplay_fixture_security_button", "key": "chiikawa_security_button" },
+        { "slot": "gameplay_fixture_showcase", "key": "chiikawa_showcase" },
+        { "slot": "gameplay_fixture_showcase_medium", "key": "chiikawa_showcase_medium" },
+        { "slot": "gameplay_fixture_showcase_large", "key": "chiikawa_showcase_large" },
+        {
+          "slot": "gameplay_fixture_drain",
+          "key": "chiikawa_drain"
+        },
+        {
+          "slot": "gameplay_fixture_faucet1",
+          "key": "chiikawa_faucet1"
+        },
+        {
+          "slot": "gameplay_fixture_sleeping_bag",
+          "key": "chiikawa_sleeping_bag"
+        },
+        {
+          "slot": "gameplay_fixture_wall2",
+          "key": "chiikawa_wall2"
+        },
+        {
+          "slot": "gameplay_fixture_door",
+          "key": "chiikawa_door"
+        },
+        {
+          "slot": "gameplay_fixture_door_lock",
+          "key": "chiikawa_door_lock"
+        },
+        {
+          "slot": "gameplay_fixture_reputation_box",
+          "key": "chiikawa_reputation_box"
+        },
+        {
+          "slot": "gameplay_fixture_desk",
+          "key": "chiikawa_desk"
+        },
+        {
+          "slot": "gameplay_store_inventory_grid",
+          "key": "chiikawa_store_inventory_grid"
+        },
+        {
+          "slot": "gameplay_fixture_wall_wires",
+          "key": "chiikawa_wall_wires"
+        },
+        {
+          "slot": "gameplay_fixture_table_wires",
+          "key": false
+        },
+        {
+          "slot": "gameplay_fixture_connecting_wire",
+          "key": false
+        },
+        {
+          "slot": "gameplay_fixture_calendar_wire",
+          "key": false
+        },
+        {
+          "slot": "gameplay_fixture_calendar",
+          "key": "chiikawa_calendar"
+        },
+        {
+          "slot": "gameplay_fixture_phone",
+          "key": "chiikawa_phone"
+        },
+        {
+          "slot": "gameplay_fixture_one_hand",
+          "key": "chiikawa_one_hand"
+        },
+        {
+          "slot": "gameplay_fixture_shotgun_shadow",
+          "key": "chiikawa_stick_shadow"
+        },
+        {
+          "slot": "gameplay_fixture_shotgun_shadow_only",
+          "key": "chiikawa_stick"
+        },
+        {
+          "slot": "gameplay_fixture_trashcan_0",
+          "key": "chiikawa_trashcan_0"
+        },
+        {
+          "slot": "gameplay_fixture_trashcan_25",
+          "key": "chiikawa_trashcan_25"
+        },
+        {
+          "slot": "gameplay_fixture_trashcan_50",
+          "key": "chiikawa_trashcan_50"
+        },
+        {
+          "slot": "gameplay_fixture_trashcan_75",
+          "key": "chiikawa_trashcan_75"
+        },
+        {
+          "slot": "gameplay_fixture_trashcan_100",
+          "key": "chiikawa_trashcan_100"
+        },
+        {
+          "slot": "gameplay_fixture_dossier_0",
+          "key": "chiikawa_dossier_0"
+        },
+        {
+          "slot": "gameplay_fixture_dossier_1",
+          "key": "chiikawa_dossier_1"
+        },
+        {
+          "slot": "gameplay_fixture_dossier_2",
+          "key": "chiikawa_dossier_2"
+        },
+        {
+          "slot": "gameplay_fixture_dossier_3",
+          "key": "chiikawa_dossier_3"
+        },
+        {
+          "slot": "gameplay_fixture_radio",
+          "key": "chiikawa_radio"
+        },
+        {
+          "slot": "gameplay_fixture_recorder",
+          "key": "chiikawa_recorder"
+        }
+      ]
+    }
+  ]
+}

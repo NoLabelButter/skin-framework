@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>skin_framework</ID>
+  <Name>自定义皮肤 皮肤框架 [Skin Framework]</Name>
+  <Author>ButterLab</Author>
+  <ModVersion>1.0</ModVersion>
+  <Description>提供统一主题预设、设置页新建及删除自建皮肤预设、UI 皮肤配置、自绘固定设施编辑面板及按主题保存的外观设置；支持设施贴图引用查看和实时替换、日历/平板/电话大菜单贴图文件名关联入口，以及多类店铺设施和界面贴图。</Description>
+  <GameVersions>
+    <Version>0.46D</Version>
+  </GameVersions>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>SkinFramework.dll</Assembly>
+  </Assemblies>
+  <Capabilities />
+</Manifest>
