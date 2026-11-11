@@ -27,3 +27,9 @@ Build output goes to `bin/Release/netstandard2.1/`. Copy the DLL, manifest, and 
 本仓库包含框架源码和预设配置。教程里的 Chiikawa 图片示例对应另行分发的模组包。
 This repository contains the framework source and preset definitions. The Chiikawa artwork referenced by the guides is supplied with the separately distributed mod package.
 
+
+## 许可 / License
+
+本项目仅供免费、非商业使用。禁止任何商业用途及以赞助、捐赠、会员等名义设置付费门槛。详见 [LICENSE](LICENSE)。
+
+Free noncommercial use only. Commercial use and payment gates, including those described as sponsorships, donations, or memberships, are prohibited. See [LICENSE](LICENSE).
